@@ -13,7 +13,7 @@ try:
 
     while(1):
 
-        print (ADS1256_GetChannalValue(0))
+        print (ADC.ADS1256_GetChannalValue(0))
 
 
         print ("\33[9A")
