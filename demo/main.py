@@ -14,9 +14,9 @@ try:
     while(1):
 
         print (ADC.ADS1256_GetChannalValue(0)*5.0/0x7fffff)
+        print (ADC.ADS1256_GetChannalValue(1)*5.0/0x7fffff)
 
-
-        print ("\33[9A")
+        print ("\33[1A")
 
 
 except :
